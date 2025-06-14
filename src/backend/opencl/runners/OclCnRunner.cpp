@@ -34,7 +34,7 @@
 #include "base/io/log/Log.h"
 #include "base/net/stratum/Job.h"
 #include "crypto/cn/CnAlgo.h"
-
+#include <stdexcept>
 
 xmrig::OclCnRunner::OclCnRunner(size_t index, const OclLaunchData &data) : OclBaseRunner(index, data)
 {

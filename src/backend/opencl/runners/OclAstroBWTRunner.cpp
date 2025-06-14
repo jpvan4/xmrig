@@ -36,6 +36,7 @@
 #include "base/io/log/Log.h"
 #include "base/net/stratum/Job.h"
 
+#include <stdexcept>
 
 namespace xmrig {
 

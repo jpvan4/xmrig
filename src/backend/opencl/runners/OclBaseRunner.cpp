@@ -33,6 +33,7 @@
 #include "base/io/log/Log.h"
 #include "base/net/stratum/Job.h"
 #include "crypto/common/VirtualMemory.h"
+#include <stdexcept>
 
 
 constexpr size_t oneGiB = 1024 * 1024 * 1024;

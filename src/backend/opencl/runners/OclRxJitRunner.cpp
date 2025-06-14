@@ -33,7 +33,7 @@
 #include "backend/opencl/OclLaunchData.h"
 #include "backend/opencl/wrappers/OclLib.h"
 #include "backend/opencl/wrappers/OclError.h"
-
+#include <stdexcept>
 
 xmrig::OclRxJitRunner::OclRxJitRunner(size_t index, const OclLaunchData &data) : OclRxBaseRunner(index, data)
 {

@@ -39,6 +39,7 @@
 #include "crypto/common/VirtualMemory.h"
 #include "crypto/kawpow/KPHash.h"
 
+#include <stdexcept>
 
 namespace xmrig {
 
